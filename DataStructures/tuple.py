@@ -14,7 +14,7 @@ u
 v = ([1, 2, 3], [3, 2, 1])
 print(v)
 
-#2
+# 2
 # Constructing tuples containing 0 or 1 items
 empty = ()
 singleton = 'hello',    # <-- note trailing comma
