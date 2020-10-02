@@ -31,7 +31,8 @@ matrix = [
     [9, 10, 11, 12],
 ]
 #transpose rows and columns
-[[row[i] for row in matrix] for i in range(4)]
+transpose = [[row[i] for row in matrix] for i in range(4)]
+print('transposed: ', transpose)
 
 list(zip(*matrix))
 
